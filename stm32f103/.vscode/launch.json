@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug: ST-Link",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/Objects/Project.axf",
+            "device": "STM32F103C8",
+            "gdbPath": "D:/GD32IDE/MCU-GD32 Embedded Builder/GD32EmbeddedBuilder_v1.5.4_Rel/Tools/GNU Tools ARM Embedded/xpack-arm-none-eabi-gcc/9.2.1-1.1/bin/arm-none-eabi-gdb.exe",
+            "serverpath": "D:/GD32IDE/MCU-GD32 Embedded Builder/GD32EmbeddedBuilder_v1.5.4_Rel/Tools/OpenOCD/xpack-openocd-0.11.0-3/bin/openocd.exe",
+            "searchDir": [
+                "D:/GD32IDE/MCU-GD32 Embedded Builder/GD32EmbeddedBuilder_v1.5.4_Rel/Tools/OpenOCD/xpack-openocd-0.11.0-3/scripts"
+            ],
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f1x.cfg"
+            ],
+            "runToEntryPoint": "main",
+            "preLaunchTask": "Keil: Build"
+        }
+    ]
+}

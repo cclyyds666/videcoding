@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "STM32F103C8T6",
+            "includePath": [
+                "${workspaceFolder}/stm32f103/User",
+                "${workspaceFolder}/stm32f103/Start",
+                "${workspaceFolder}/stm32f103/Library",
+                "${workspaceFolder}/stm32f103/System",
+                "${workspaceFolder}/stm32f103/Hardware",
+                "${workspaceFolder}/stm32f103/**"
+            ],
+            "defines": [
+                "STM32F10X_MD",
+                "USE_STDPERIPH_DRIVER",
+                "__GNUC__"
+            ],
+            "compilerPath": "",
+            "cStandard": "c99",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "windows-gcc-arm",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/stm32f103/User",
+                    "${workspaceFolder}/stm32f103/Start",
+                    "${workspaceFolder}/stm32f103/Library",
+                    "${workspaceFolder}/stm32f103/System",
+                    "${workspaceFolder}/stm32f103/Hardware"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

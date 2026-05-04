@@ -1,0 +1,28 @@
+{
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/stm32f103/User",
+        "${workspaceFolder}/stm32f103/Start",
+        "${workspaceFolder}/stm32f103/Library",
+        "${workspaceFolder}/stm32f103/System",
+        "${workspaceFolder}/stm32f103/Hardware"
+    ],
+    "C_Cpp.default.defines": [
+        "STM32F10X_MD",
+        "USE_STDPERIPH_DRIVER",
+        "__GNUC__"
+    ],
+    "C_Cpp.default.compilerPath": "",
+    "C_Cpp.default.cStandard": "c99",
+    "C_Cpp.default.intelliSenseMode": "windows-gcc-arm",
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "stm32f10x.h": "c",
+        "stm32f10x_conf.h": "c",
+        "stm32f10x_it.h": "c",
+        "Delay.h": "c"
+    },
+    "files.exclude": {
+        "**/Objects": true,
+        "**/Listings": true
+    }
+}
